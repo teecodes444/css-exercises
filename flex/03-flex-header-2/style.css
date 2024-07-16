@@ -55,6 +55,7 @@ ul {
 
 .right{
   display: flex;
+  gap: 25px;
 }
 
 .links{
