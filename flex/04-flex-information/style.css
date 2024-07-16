@@ -24,8 +24,18 @@ img {
   align-items: center;
   justify-content: center;
   background: #eee;
+
 }
 
 .container{
   display: flex;
+  
 }
+
+.container2{
+  display: flex;
+  flex-direction: column;
+  max-width: 200px;
+
+}
+
