@@ -30,7 +30,7 @@ ul{
 }
 
 .header{
-  background-color: cyan;
+  /* background-color: cyan; */
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -50,4 +50,9 @@ ul{
 
 .right-links{
   display: flex;
+}
+
+
+.content{
+  text-align: center;
 }
