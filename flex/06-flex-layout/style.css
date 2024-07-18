@@ -38,7 +38,10 @@ ul{
 
 .header li{
   margin-left: 20px;
+}
 
+.header a{
+  text-decoration: none;
 }
 
 .left-links{
