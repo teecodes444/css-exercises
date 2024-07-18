@@ -31,3 +31,11 @@ input {
   justify-content: space-between;
   align-items: center;
 }
+
+.left-links{
+  display: flex;
+}
+
+.right-links{
+  display: flex;
+}
