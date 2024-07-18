@@ -36,7 +36,7 @@ ul{
   align-items: center;
 }
 
-.header li{
+li{
   margin-left: 20px;
 }
 
@@ -62,8 +62,4 @@ a{
   display: flex;
   justify-content: space-between;
 
-}
-
-.footer li{
-  margin-left: 20px;
 }
