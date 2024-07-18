@@ -32,6 +32,11 @@ input {
   align-items: center;
 }
 
+.header li{
+  margin-left: 20px;
+
+}
+
 .left-links{
   display: flex;
 }
