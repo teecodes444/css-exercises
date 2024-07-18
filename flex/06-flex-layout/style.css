@@ -24,3 +24,10 @@ input {
   padding: 8px 24px;
   width: 400px;
 }
+
+.header{
+  background-color: cyan;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
