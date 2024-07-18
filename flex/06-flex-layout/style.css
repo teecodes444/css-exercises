@@ -25,6 +25,10 @@ input {
   width: 400px;
 }
 
+ul{
+  list-style-type: none;
+}
+
 .header{
   background-color: cyan;
   display: flex;
