@@ -56,3 +56,14 @@ ul{
 .content{
   text-align: center;
 }
+
+.footer{
+  background: #eeeeee;
+  display: flex;
+  justify-content: space-between;
+
+}
+
+.footer li{
+  margin-left: 20px;
+}
