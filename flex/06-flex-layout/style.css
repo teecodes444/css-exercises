@@ -34,22 +34,20 @@ input {
 ul{
   list-style-type: none;
   padding: 0px;
+  margin: 0px;
+  gap: 16px;
 }
 
 .header{
   /* background-color: cyan; */
   display: flex;
   justify-content: space-between;
-  align-items: center;
-}
-
-li{
-  padding: 0px 10px;
+  padding: 10px;
 }
 
 a{
   text-decoration: none;
-  /* color: darkgray; */
+  color: #666;
 }
 
 .left-links{
@@ -62,11 +60,16 @@ a{
 
 
 .content{
-  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
 }
 
 .footer{
   background: #eeeeee;
   display: flex;
   justify-content: space-between;
+  padding: 10px;
 }
