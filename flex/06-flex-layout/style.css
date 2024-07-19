@@ -27,6 +27,7 @@ input {
 
 ul{
   list-style-type: none;
+  padding: 0px;
 }
 
 .header{
@@ -37,7 +38,7 @@ ul{
 }
 
 li{
-  margin-left: 20px;
+  padding: 0px 10px;
 }
 
 a{
