@@ -5,10 +5,14 @@ body {
   margin: 0;
   overflow: hidden;
   font-family: Roboto, sans-serif;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
 }
 
 img {
   width: 600px;
+
 }
 
 button {
@@ -16,6 +20,7 @@ button {
   border: none;
   border-radius: 8px;
   background: #eee;
+  padding: 10px;
 }
 
 input {
@@ -23,6 +28,7 @@ input {
   border-radius: 16px;
   padding: 8px 24px;
   width: 400px;
+  margin-bottom: 15px;
 }
 
 ul{
@@ -43,6 +49,7 @@ li{
 
 a{
   text-decoration: none;
+  /* color: darkgray; */
 }
 
 .left-links{
@@ -62,5 +69,4 @@ a{
   background: #eeeeee;
   display: flex;
   justify-content: space-between;
-
 }
