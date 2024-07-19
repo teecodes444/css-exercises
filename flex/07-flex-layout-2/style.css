@@ -42,7 +42,9 @@ body {
   border: 1px solid #eee;
   box-shadow: 2px 4px 16px rgba(0,0,0,.06);
   border-radius: 4px;
-  
+  flex: 1;
+  /* makes all boxes even  */
+  margin: 20px 10px;
 }
 
 .container{
@@ -53,6 +55,8 @@ body {
 
 .cardGroup{
   padding: 48px;
+  display: flex;
+  justify-content: space-between;
 }
 
 ul{
