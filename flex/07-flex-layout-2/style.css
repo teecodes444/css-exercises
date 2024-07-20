@@ -4,7 +4,7 @@ body {
   min-height: 100vh;
   display: flex;
   flex-direction: column;
-  justify-content: space-between;
+  /* justify-content: space-between; */
 }
 
 .header {
@@ -42,21 +42,31 @@ body {
   border: 1px solid #eee;
   box-shadow: 2px 4px 16px rgba(0,0,0,.06);
   border-radius: 4px;
-  flex: 1;
+  padding: 20px;
+  width: 300px;
+  /* helps create a box shape for each card  */
+  /* box-sizing: border-box; */
+  /* includes padding width and height for sizing  */
+  /* flex: 1; */
   /* makes all boxes even  */
-  margin: 20px 10px;
 }
 
 .container{
   display: flex;
+  flex: 1;
+  /* stretches the boxes to take up the whole page  */
+  /* removed body's justified content as a result  */
   
- 
 }
 
 .cardGroup{
   padding: 48px;
   display: flex;
-  justify-content: space-between;
+  /* justify-content: space-between; */
+  /* removed justify content because it caused weird spacing  */
+  flex-wrap: wrap;
+  gap: 32px;
+
 }
 
 ul{
